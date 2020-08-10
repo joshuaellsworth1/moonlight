@@ -38,7 +38,6 @@ section:after {
     Left: 0;
     width: 100%;
     height: 100%;
-    background: #0a2a43;
     z-index: 10000;
     mix-blend-mode: color;
 }
@@ -65,20 +64,22 @@ section img {
     z-index: 2;
 }
 
-h1 {
-    color: grey;
+.container{
+    color: whitesmoke;
+    margin: auto;
+    overflow: auto;
+    padding: 0 15rem;
     text-align: center;
-    position: relative;
+    position: absolute;
+    top: 1300px;
+    font-size: 30px;
 }
 
-p {
+h3 {
     color: white;
-    text-align: center;
-    letter-spacing: 2px;
-    text-align-last: center;
-    position: relative;
+    font-size: 3.5rem;
 }
 
-h1, p {
-    top: 200px;
+img {
+    width: 100%;
 }
