@@ -55,7 +55,30 @@ section img {
 
 #text {
     position: relative;
+    height: 380px;
     color: #fff;
     font-size: 10em;
     z-index: 1;
+}
+
+#road {
+    z-index: 2;
+}
+
+h1 {
+    color: grey;
+    text-align: center;
+    position: relative;
+}
+
+p {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    text-align-last: center;
+    position: relative;
+}
+
+h1, p {
+    top: 200px;
 }
