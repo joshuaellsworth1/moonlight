@@ -73,6 +73,11 @@ section img {
     position: absolute;
     top: 1300px;
     font-size: 30px;
+
+    display: inline-block;
+    transition: 0.5s;
+    transform-origin:left;
+    transform: scaleX(1);
 }
 
 h3 {
